@@ -22,7 +22,7 @@ export default function Pricing() {
           <div className="top-row">
             <div className="title">The Natural Health Guide</div>
             <div className="price-tag">
-              <div className="amt">$19</div>
+              <div className="amt">$9</div>
               <div className="per">one-time payment</div>
             </div>
           </div>
@@ -36,7 +36,7 @@ export default function Pricing() {
           </ul>
           {/* TODO: point this at your real checkout (Stripe / Gumroad / Lemon Squeezy) */}
           <a href="https://pay.hotmart.com/U107205089N" className="btn btn-gold">
-            Get Instant Access — $19
+            Get Instant Access — $9
           </a>
           <div className="guarantee">
             <ShieldIcon />
