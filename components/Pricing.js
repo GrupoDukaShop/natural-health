@@ -35,7 +35,7 @@ export default function Pricing() {
             ))}
           </ul>
           {/* TODO: point this at your real checkout (Stripe / Gumroad / Lemon Squeezy) */}
-          <a href="#" className="btn btn-gold">
+          <a href="https://pay.hotmart.com/U107205089N" className="btn btn-gold">
             Get Instant Access — $19
           </a>
           <div className="guarantee">
