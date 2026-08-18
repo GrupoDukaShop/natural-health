@@ -17,7 +17,7 @@ export default function Hero() {
           </p>
           <div className="cta-row">
             <a href="https://pay.hotmart.com/U107205089N" className="btn btn-primary">
-              Get Instant Access — $19
+              Get Instant Access — $9
             </a>
           </div>
           <div className="trust-row">
