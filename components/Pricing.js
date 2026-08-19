@@ -15,14 +15,14 @@ export default function Pricing() {
         <div className="eyebrow">Get Started Today</div>
         <h2>One guide. One simple price. Yours for life.</h2>
         <p>
-          No subscriptions, no upsells, no &quot;unlock chapter 6 for $9
+          No subscriptions, no upsells, no &quot;unlock chapter 6 for $5
           more.&quot; Just the complete guide, delivered instantly.
         </p>
         <div className="price-card">
           <div className="top-row">
             <div className="title">The Natural Health Guide</div>
             <div className="price-tag">
-              <div className="amt">$9</div>
+              <div className="amt">$5</div>
               <div className="per">one-time payment</div>
             </div>
           </div>
@@ -36,7 +36,7 @@ export default function Pricing() {
           </ul>
           {/* TODO: point this at your real checkout (Stripe / Gumroad / Lemon Squeezy) */}
           <a href="https://pay.hotmart.com/U107205089N" className="btn btn-gold">
-            Get Instant Access — $9
+            Get Instant Access — $5
           </a>
           <div className="guarantee">
             <ShieldIcon />
