@@ -5,7 +5,7 @@ export default function FinalCTA() {
         <h2>Your healthier, calmer everyday starts with one small choice.</h2>
         <p>Instant download. Read your first chapter in the next five minutes.</p>
         <a href="#pricing" className="btn btn-primary">
-          Get Instant Access — $9
+          Get Instant Access — $5
         </a>
       </div>
     </section>
