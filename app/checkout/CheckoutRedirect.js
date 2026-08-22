@@ -8,7 +8,7 @@ export default function CheckoutRedirect() {
   useEffect(() => {
     const redirectTimer = window.setTimeout(() => {
       window.location.replace(checkoutUrl);
-    }, 900);
+    }, 500);
 
     return () => window.clearTimeout(redirectTimer);
   }, []);
