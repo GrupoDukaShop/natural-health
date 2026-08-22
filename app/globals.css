@@ -246,6 +246,27 @@ nav .btn {
   font-size: 14px;
   padding: 12px 22px;
 }
+.checkout-loading {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: var(--cream);
+  color: var(--forest-dark);
+  font-family: var(--font-poppins), sans-serif;
+}
+.checkout-loading .loader {
+  width: 32px;
+  height: 32px;
+  border: 3px solid rgba(23, 40, 28, 0.18);
+  border-top-color: var(--gold);
+  border-radius: 50%;
+  animation: checkout-spin 0.8s linear infinite;
+}
+@keyframes checkout-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
 .book-mock {
   width: 300px;
   position: relative;
