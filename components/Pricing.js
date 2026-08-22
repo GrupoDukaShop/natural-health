@@ -22,6 +22,7 @@ export default function Pricing() {
           <div className="top-row">
             <div className="title">The Natural Health Guide</div>
             <div className="price-tag">
+              <div className="was">$9</div>
               <div className="amt">$5</div>
               <div className="per">one-time payment</div>
             </div>

@@ -17,7 +17,7 @@ export default function Hero() {
           </p>
           <div className="cta-row">
             <a href="https://pay.hotmart.com/U107205089N" className="btn btn-primary">
-              Get Instant Access — $5
+              Get Instant Access — <span className="price-was">$9</span> $5
             </a>
           </div>
           <div className="trust-row">
@@ -46,6 +46,14 @@ export default function Hero() {
               PAGES
             </div>
           </div>
+          <div className="hero-price" aria-label="Special price: 5 dollars, reduced from 9 dollars">
+            <span className="hero-price-was">$9</span>
+            <strong>$5</strong>
+            <span className="hero-price-note">one-time payment</span>
+          </div>
+          <a href="https://pay.hotmart.com/U107205089N" className="btn btn-gold hero-checkout">
+            Get the Guide for $5
+          </a>
         </div>
       </div>
     </header>

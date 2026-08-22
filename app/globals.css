@@ -96,6 +96,11 @@ a {
   color: var(--cream);
   box-shadow: 0 6px 16px rgba(23, 40, 28, 0.25);
 }
+.btn-primary .price-was {
+  color: rgba(247, 243, 232, 0.65);
+  font-size: 14px;
+  text-decoration: line-through;
+}
 .btn-primary:hover {
   background: var(--forest-dark);
   transform: translateY(-2px);
@@ -212,9 +217,34 @@ nav .btn {
 .book-stage {
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 16px;
   perspective: 1600px;
+}
+.hero-price {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  color: var(--forest-dark);
+}
+.hero-price-was {
+  color: var(--ink-soft);
+  font-size: 18px;
+  text-decoration: line-through;
+}
+.hero-price strong {
+  font-family: var(--font-lora), serif;
+  font-size: 34px;
+}
+.hero-price-note {
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+.hero-checkout {
+  font-size: 14px;
+  padding: 12px 22px;
 }
 .book-mock {
   width: 300px;
@@ -608,6 +638,11 @@ nav .btn {
 }
 .price-tag {
   text-align: right;
+}
+.price-tag .was {
+  color: var(--ink-soft);
+  font-size: 16px;
+  text-decoration: line-through;
 }
 .price-tag .amt {
   font-family: var(--font-lora), serif;
